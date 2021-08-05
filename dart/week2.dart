@@ -4,6 +4,7 @@ void main(){
   // var x = callColor();
   // print(x);
 
+  //เรียกใช้งานฟังก์ชัน callWeb    
   callWeb("Google",protocal: "http",port : 443);
 }
 
@@ -23,7 +24,9 @@ void main(){
    //return x;
 
 }*/
+//กำหนดฟังก์ชัน callgen โดยมีพารามิเตอร์เป็น int
 String callgen(int year) => (year >= 1996) ? ("Gen Z") : ("Gen Y") ;
+
 
 int callColor([String newColor = "pink"]){
 
@@ -41,4 +44,5 @@ int callColor([String newColor = "pink"]){
 
 }
 
+//กำหนดค่าในฟังก์ชัน CallWeb 
 void callWeb(String web ,{int port = 80, String protocal = "http"}) => print("$protocal $web : $port");
