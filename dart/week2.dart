@@ -1,13 +1,14 @@
 void main(){
   //print(callgen(2000));
-
+    //กำหนดตัวแปร x ให้มีค่าเท่ากับ ฟังก์ชัน callColor
   // var x = callColor();
+    //แสดงค่าตัวแปร X
   // print(x);
 
   //เรียกใช้งานฟังก์ชัน callWeb    
   callWeb("Google",protocal: "http",port : 443);
 }
-
+  //กำหนดฟังก์ชัน callgen ให้มีการคืนค่าแบบ String 
 /*String callgen(int year){
 
   // var year = 2000;
