@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobileappweek1/config/constant.dart';
+import 'package:mobileappweek1/screen/dashboard.dart';
 import 'package:mobileappweek1/screen/index.dart';
 import 'package:mobileappweek1/screen/login.dart';
 import 'package:mobileappweek1/screen/register.dart';
@@ -13,8 +14,9 @@ class KMUTNB extends StatelessWidget {
       home: index(),
       routes: {
         'index': (context) => index(),
-        'login': (context) => login(),
+        'login': (context) => Login(),
         'register': (context) => register(),
+        'Dashboard': (context) => Dashboard(),
       },
       theme: ThemeData(primaryColor: pColor, secondaryHeaderColor: sColor),
       /*Scaffold(
